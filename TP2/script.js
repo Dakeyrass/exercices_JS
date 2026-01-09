@@ -115,7 +115,7 @@ for(let j=0; j<notes.length; j++){
 	notes[min] = stock;
 }
 
-//Partie 7
+//Partie 7 - Bonus
 let echange = 0;
 let verification = 0;
 for(let j=0; j<notes.length; j++){
@@ -140,7 +140,7 @@ for(let j=0; j<notes.length; j++){
 console.log("Nombre d'échanges:", echange);
 console.log("Nombre de vérifications:", verification);*/
 
-//Partie 8
+//Partie 8 - Bonus
 for(let j=0; j<notes.length; j++){
 	//on réinitialise les valeurs
 	stock = notes[j];
