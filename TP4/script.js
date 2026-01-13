@@ -126,6 +126,7 @@ function triParSelection1(tableau){
 
 //Partie 7 - Appel des fonctions 
 eleves = genererEleves();
+
 afficherEleves(eleves);
-trouverMoyenneMin(eleves, 0);
+afficherDonnees(eleves);
 //triParSelection(eleves);
