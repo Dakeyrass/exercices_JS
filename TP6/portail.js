@@ -36,6 +36,7 @@ let selectedCanvas = null;
 
 for (let i = 1; i < 30; i++) {
   const div = document.createElement("div");
+  div.id = "test";
 
   const input = document.createElement("input");
   input.type = "radio";

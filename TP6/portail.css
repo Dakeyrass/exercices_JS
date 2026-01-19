@@ -75,10 +75,11 @@ h1 {
 
 /*GRID SPRITES CHARACTERS */
 #skin-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    display: grid !important;
+    grid-template-columns: repeat(5, minmax(80px, 1fr));
     gap: 15px;
     margin-top: 20px;
+	overflow-x: scroll;
 }
 
 .skin-canvas {
