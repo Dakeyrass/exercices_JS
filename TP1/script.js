@@ -12,6 +12,9 @@ let eleve0 = {
 	maths: 2,
 	french: 14,
 }
+
+
+
 console.log(eleve0.name);
 
 //partie 3

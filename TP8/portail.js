@@ -18,7 +18,7 @@ pseudoForm.addEventListener("submit", function (event) {
   const sprite =
     document.querySelector('input[name="sprite"]:checked')?.value ?? "noskin";
 
-  if (pseudoInput === null || linkInput === null || sprite === "noskin")
+  if (pseudoInput === "" || linkInput === "" || sprite === "noskin")
     alert("Remplissez tous les champs");
   else {
     const skinNumber = sprite.replace(/\D/g, "");
